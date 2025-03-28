@@ -15,7 +15,7 @@ for i in range(len(y)):
     for j in range(len(x)):
         plt.text(X[i, j], Y[i, j], f'{valores[i, j]:.2f}', ha='center', va='center', color='black')
 
-plt.title('Voltaje medido en solucion NaCl a 5mm de profundidad (5 Volts)')
+plt.title('Voltaje en solucion NaCl deepth=5mm 5V')
 plt.xlabel('Puntos Horizontal')
 plt.ylabel('Puntos Vertical')
 plt.grid()
