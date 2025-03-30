@@ -16,8 +16,8 @@ for i in range(len(y)):
         plt.text(X[i, j], Y[i, j], f'{valores[i, j]:.2f}', ha='center', va='center', color='black')
 
 plt.title('Voltaje en solucion NaCl deepth=5mm 5V')
-plt.xlabel('Puntos Horizontal')
-plt.ylabel('Puntos Vertical')
+plt.xlabel('Dirección Horizontal')
+plt.ylabel('Dirección Vertical')
 plt.grid()
 plt.savefig('LineasEquipotenciales.png')
 plt.show()
