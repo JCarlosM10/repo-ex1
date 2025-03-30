@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt 
 
-valores = np.loadtxt('datos.txt')
+valores = np.loadtxt('/home/juancarlos/GIT/repositorio1GH/repositorio1-ejemplo/datos.txt')
 
 x = np.linspace(1, 7, 7)  # Eje x
 y = np.linspace(5, 1, 5)  # Eje y
@@ -19,4 +19,5 @@ plt.title('Voltaje en solucion NaCl deepth=5mm 5V')
 plt.xlabel('Puntos Horizontal')
 plt.ylabel('Puntos Vertical')
 plt.grid()
+plt.savefig('LineasEquipotenciales.png')
 plt.show()
